@@ -41,7 +41,7 @@ Right now, data are extracted exclusively from audio-books and in French languag
 
 ```sh
 $ sudo apt-get install -y ffmpeg espeak libespeak-dev python3-numpy python-numpy libncurses-dev libncursesw5-dev sox libsqlite3-dev
-$ git clone git@github.com:wasertech/TrainingSpeech.git
+$ git clone git@gitlab.com:wasertech/TrainingSpeech.git
 $ pip3 install --user pipenv
 $ cd TrainingSpeech
 $ pipenv install --python=3.6.6
