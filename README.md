@@ -34,14 +34,14 @@ Right now, data are extracted exclusively from audio-books and in French languag
 1. retrieve epub and corresponding mp3 file and store them into `./data/epubs` and `./data/mp3` (respectively)
 2. create new source into `./sources.json` (NB: all fields are mandatory)
 3. generate initial transcript using `python manage.py build-transcript <SOURCE_NAME>`
-4. upload epub and mp3 files on S3 `python manage.py upload -s <SOURCE_NAME>` 
+4. upload epub and mp3 files on S3 `python manage.py upload -s <SOURCE_NAME>`
 
 
 ## Dev setup 
 
 ```sh
 $ sudo apt-get install -y ffmpeg espeak libespeak-dev python3-numpy python-numpy libncurses-dev libncursesw5-dev sox libsqlite3-dev
-$ git clone git@gitlab.com:nicolaspanel/TrainingSpeech.git
+$ git clone git@github.com:wasertech/TrainingSpeech.git
 $ pip3 install --user pipenv
 $ cd TrainingSpeech
 $ pipenv install --python=3.6.6
@@ -62,10 +62,4 @@ Releases are ready-to-use `zip` archives containing :
 
 | Name                                                                                                    |   # speeches |   # speakers | Total Duration | Language   |
 |:--------------------------------------------------------------------------------------------------------|-------------:|-------------:|:---------------|:-----------|
-| [2018-11-24_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-11-24_fr_FR.zip) (latest) |        67577 |            4 | 95:27:21       | fr_FR      |
-| [2018-10-03_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-10-03_fr_FR.zip)          |        67670 |            4 | 95:28:42       | fr_FR      |
-| [2018-10-02_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-10-02_fr_FR.zip)          |        62657 |            4 | 87:23:34       | fr_FR      |
-| [2018-09-28_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-28_fr_FR.zip)          |        61664 |            4 | 86:23:05       | fr_FR      |
-| [2018-09-27_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-27_fr_FR.zip)          |        61658 |            4 | 86:22:43       | fr_FR      |
-| [2018-09-18_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-18_fr_FR.zip)          |        44439 |            4 | 69:20:14       | fr_FR      |
-| [2018-09-05_fr_FR](https://s3.eu-west-3.amazonaws.com/audiocorp/releases/2018-09-05_fr_FR.zip)          |        10292 |            3 | 15:55:12       | fr_FR      |
+| [2019-04-11_fr_FR](https://drive.infomaniak.com/app/share/327683/85ec2469-8a64-4a8a-8de0-43e262d32d38/16/download) (w/ 💖 from [@lissyx](https://github.com/lissyx)) |        67577 |            4 | 95:27:21       | fr_FR      |
