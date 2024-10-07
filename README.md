@@ -62,4 +62,4 @@ Releases are ready-to-use `zip` archives containing :
 
 | Name                                                                                                    |   # speeches |   # speakers | Total Duration | Language   |
 |:--------------------------------------------------------------------------------------------------------|-------------:|-------------:|:---------------|:-----------|
-| [2019-04-11_fr_FR](https://drive.infomaniak.com/app/share/327683/85ec2469-8a64-4a8a-8de0-43e262d32d38/16/download) (w/ 💖 from [@lissyx](https://github.com/lissyx)) |        124089 |            4 | 182:43:35       | fr_FR      |
+| [2019-04-11_fr_FR](https://huggingface.co/datasets/wasertech/TrainingSpeech/resolve/main/ts_2019-04-11_fr_FR.zip?download=true) (w/ 💖 from [@lissyx](https://github.com/lissyx)) |        124089 |            4 | 182:43:35       | fr_FR      |
